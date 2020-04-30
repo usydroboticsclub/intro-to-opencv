@@ -9,9 +9,11 @@ edges = cv2.Canny(frame,100,200) # This uses the canny edge detector. The 100 an
 heart = cv2.imread("heart.png")
 heartCanny = cv2.Canny(heart,100,200)
 heartContours, hierarchy = cv2.findContours(heartCanny,cv2.RETR_LIST,cv2.CHAIN_APPROX_NONE)
+
 heartBlank = np.zeros(heart.shape)
 cv2.polylines(heartBlank,heartContours[1],True,(255),1)
 # Find its contours and create a moment set for checking
+
 heartMoments = cv2.moments(heartContours[1])
 heartHuMoments= cv2.HuMoments(heartMoments)
 print(heartHuMoments)

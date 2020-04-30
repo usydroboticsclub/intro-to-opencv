@@ -17,6 +17,13 @@ mask = cv2.inRange(frame, lower_blue, upper_blue)
 noiseDownMask=np.array(mask)
 noiseDownFrame=np.array(frame)
 
+
+
+
+
+
+
+
 kernel = np.ones((5,5),np.uint8) # the 5 by 5 tells the computer how much to erode by.
 noiseDownMask = cv2.erode(noiseDownMask,kernel,iterations = 1)
 
