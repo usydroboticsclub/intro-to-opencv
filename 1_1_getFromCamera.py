@@ -1,4 +1,4 @@
- import cv2 # it's not called opencv, its called cv2, because its just faster
+import cv2 # it's not called opencv, its called cv2, because its just faster
 
 cam = cv2.VideoCapture(0) # The 0 is for the index of your camera. If you have multiple cameras, you may need to use something other than 0.
 
