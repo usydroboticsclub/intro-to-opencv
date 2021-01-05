@@ -3,22 +3,6 @@ OpenCV is a toolkit for processing computer imagery. This tutorial covers some c
 
 What does this repository help you do? It assumes you have a windows/linux/macbook and know nothing except how to click stuff and type stuff. It will help you understand how to solve certain problems. Let's get started!
 
-
-## Recording
-The password for these recordings is 6mDDFSSjD#xY
-
-The below links will expire on 30-10-2020 and will become unavailable for download after this date.
-
-Audio Only (19.96 MB)
-https://cloudstor.aarnet.edu.au/plus/s/iiyNVuxTEymapAA
-
-Other (198.00 B)
-https://cloudstor.aarnet.edu.au/plus/s/9HDKkqamVRAWTIw
-
-Video (105.31 MB)
-https://cloudstor.aarnet.edu.au/plus/s/wobyt7sqHmgoTz7
-
-
 ## Table of contents
 1. How do I install OpenCV?
 2. How do I get images from my camera / a file?
