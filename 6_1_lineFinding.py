@@ -1,3 +1,8 @@
+"""
+Finding Lines in Images
+One of the many other things we can do with openCV is find the lines in an image. Here's what we do:
+"""
+
 import cv2
 import numpy as np
 
@@ -22,6 +27,13 @@ for l in lines:
 cv2.imshow("original", frame)
 cv2.imshow("lines", blankImage)
 cv2.waitKey(-1)
+
+
+"""
+So this is able to find our image borders with some degree of accuracy.
+
+This example and more are floating around the internet, but a good place to find them is:....
+"""
 
 ####Exercises####
 #   Challenge: Determine the road lane lines from a given image an drawing line onto them. 

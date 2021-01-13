@@ -19,11 +19,11 @@ Before you start, you may want to clone this repository, as it has a number of u
 1. Install python. If you need step by step instructions doing this, check out our python tutorial: https://github.com/usydroboticsclub/python
 2. Learn python. If you need step by step instructions doing this, check out our python tutorial: https://github.com/usydroboticsclub/python; and our other python tutorial: https://github.com/usydroboticsclub/py_harder
 3. Open a command shell. All platforms have a command shell. If you're on windows, click the start menu and type CMD, then press enter. If you're on mac, go to launcher and type in Terminal. If you're on linux, press your equivalent of a start button and type in terminal.
-4. Type in `pip install opencv-python` and press enter. You many have to wait a bit. 
+4. Type in `pip3 install opencv-python` and press enter. You many have to wait a bit. 
 5. Hooray! You now have opencv on your computer.
 
 ## Getting images from your camera or a file
-You can get your images from a variety of sources. You can get an image from your camera (if you have one on your computer) using the following command:
+You can get your images from a variety of sources. You can get an image from your camera (if you have one on your computer) using the following command (this won't take an image,just show a live feed):
 ```python
 import cv2 # it's not called opencv, its called cv2, because its just faster
 
@@ -35,7 +35,7 @@ while (1):
         cv2.imshow("camera shot", frame) # display it
         cv2.waitKey(1) # Wait for 1 millisec so that it doesnt cause the computer to hang indefinitely
 ``` 
-That's a lot to take in, but hopefully each line is fairly straightforward.
+That's a lot to take in, but hopefully each line is fairly straightforward. To close the image, press Control + C while in terminal to quit the program!
 
 If you don't have a camera, you can also use the `imread` command to get images from files:
 ```python

@@ -1,3 +1,9 @@
+"""
+Displaying Things
+Now, perhaps we want to not only show our image, but also highlight a certain portion of it. OpenCV provides 
+a number of functions for doing that. Let's take a look at some:
+"""
+
 import numpy as np # Numpy is a numerical library in python. OpenCV is based in numpy and hence when doing low level operations we need numpy in our code.
 import cv2
 
