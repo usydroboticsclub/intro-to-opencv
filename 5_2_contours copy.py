@@ -1,3 +1,10 @@
+"""
+Shape Finding 2
+Now, there's a lot of noise so far, because rightfully so there are a lot of edges from things that are 
+not our shapes. We still need to find our lovehearts! To do this, we need to know which of these edge pixels 
+should be grouped together to form actual shapes. Of course, there is a function for this:
+"""
+
 import cv2
 import numpy as np
 

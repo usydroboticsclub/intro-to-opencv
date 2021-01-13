@@ -1,3 +1,11 @@
+"""
+Given our previous results, there are specks of noise here and there which aren't shapes. Since we know that the shapes 
+are bigger than a given size, we can remove many of the specks using morphological transformations. The two we will be using 
+are erosion() and dilation(). Erosion means to wear away the outside of a group of pixels; if the pixels are too small, they wil 
+be deleted. Dilation is the opposite, which we will need to do since we lose some area if we simply erode.
+"""
+
+
 import cv2
 import numpy as np
 frame = cv2.imread ("image.png")

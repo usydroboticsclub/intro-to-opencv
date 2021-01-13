@@ -1,3 +1,13 @@
+"""
+Shape Finding 3
+Great! We have less random noise and more shapes now. Next, we have to find all those hearts! Perhaps if we had a 
+heart template, we could match the hearts in the image to the heart template. But all the hearts are of different sizes and rotations...
+
+Fortunately, people smarter than we figured out that certain functions of the x and y coordinates of an image are 
+invariant to the size, scaling and rotation of a shape. These are called the Hu-moments of the image, and we'll use them 
+to our advantage here.
+"""
+
 import cv2
 import numpy as np
 
@@ -40,3 +50,7 @@ cv2.imshow("heartContour", heartCanny)
 cv2.imshow("edges", edges) 
 cv2.imshow("good contours", blankImage) 
 cv2.waitKey(-1)
+
+
+####Exercises####
+# Instead of filtering for the heart, instead filter for a pentagon, look in the file folder!
