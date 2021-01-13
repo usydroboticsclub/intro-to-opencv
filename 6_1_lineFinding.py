@@ -22,3 +22,9 @@ for l in lines:
 cv2.imshow("original", frame)
 cv2.imshow("lines", blankImage)
 cv2.waitKey(-1)
+
+####Exercises####
+#   Challenge: Determine the road lane lines from a given image an drawing line onto them. 
+#   Use the provided image lane_img.jpg from the Github as your testing image. 
+#   Challenge: Draw the grid lines of the sudoku image by detecting the lines using a Hough transform.
+#   Use image sudoku.img from the Github.
